@@ -1,0 +1,33 @@
+.facts-header{
+  font-family: monomakh;
+  font-weight: 100;
+  padding-left: 50px;
+  background-color: rgb(90, 89, 89);
+  color: white;
+}
+
+.main-div {
+  display: grid;
+  grid-template-columns: 1fr;      
+  grid-template-rows: repeat(4, auto); 
+  gap: 40px;                        
+  padding: 20px;
+  justify-items: center;   
+}
+
+.div-one, .div-two, .div-three, .div-four {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-div p{
+  font-family: lato;
+  font-size: 12px;
+  color: rgb(72, 67, 67);
+  width: 300px;
+}
+
+.main-div img{
+  width: 200px;
+}
