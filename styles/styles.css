@@ -3,27 +3,48 @@
   padding: 0
 }
 
-.main-header {
-  height: 150px;
-  background-color: rgb(164, 194, 192);
-}
+
 
 .main-title {
+  height: 60px;
   color: rgb(43, 43, 43);
+  background-color: rgb(164, 194, 192);
   font-family: 'italianno','Pacifico', cursive;
   font-weight: 200;
-  font-size: 50px;
+  font-size: 45px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
   text-align: center;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 .main-subtitle{
   color: rgb(43, 43, 43);
   font-family: 'lato';
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 200;
+  font-size: 12px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-  text-align: center;
-  padding-top: 15px;
+  text-align: center; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.main-image{
+  width: 100%;
+}
+
+.home-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-about{
+  margin: 40px 80px;
+  font-family: 'lato';
+  font-size: 10px;
+}
+
+.home-image{
+  width: 400px;
+
 }
