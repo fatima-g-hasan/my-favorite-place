@@ -20,7 +20,7 @@
 .main-subtitle{
   color: rgb(43, 43, 43);
   font-family: 'lato';
-  font-weight: 200;
+  font-weight: 300;
   font-size: 12px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
   text-align: center; 
@@ -32,6 +32,12 @@
   width: 100%;
 }
 
+.home-title{
+  padding-left: 80px;
+  padding-top: 50px;
+  font-family: monomakh;
+  font-weight: 100;
+}
 .home-content{
   display: flex;
   flex-direction: column;
@@ -39,12 +45,12 @@
 }
 
 .home-about{
-  margin: 40px 80px;
+  margin: 10px 80px 40px 80px;
   font-family: 'lato';
   font-size: 10px;
+  color: rgb(72, 67, 67);
 }
 
 .home-image{
   width: 400px;
-
 }
