@@ -54,3 +54,22 @@
 .home-image{
   width: 400px;
 }
+
+.section{
+  padding-left: 80px;
+  padding-top: 40px;
+}
+
+.section-header{
+  font-family: monomakh;
+  font-weight: 100;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.section li {
+  font-family: lato;
+  font-size: 10px;
+  color: rgb(72, 67, 67);
+  padding-bottom: 5px;
+}
