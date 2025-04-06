@@ -6,22 +6,22 @@
 
 
 .main-title {
-  height: 60px;
+  height: 80px;
   color: rgb(43, 43, 43);
   background-color: rgb(164, 194, 192);
   font-family: 'italianno','Pacifico', cursive;
   font-weight: 200;
-  font-size: 45px;
+  font-size: 55px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
   text-align: center;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .main-subtitle{
   color: rgb(43, 43, 43);
   font-family: 'lato';
   font-weight: 300;
-  font-size: 12px;
+  font-size: 20px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
   text-align: center; 
   padding-top: 5px;
@@ -37,6 +37,7 @@
   padding-top: 50px;
   font-family: monomakh;
   font-weight: 100;
+  font-size: 40px;
 }
 .home-content{
   display: flex;
@@ -47,12 +48,12 @@
 .home-about{
   margin: 10px 80px 40px 80px;
   font-family: 'lato';
-  font-size: 10px;
+  font-size: 18px;
   color: rgb(72, 67, 67);
 }
 
 .home-image{
-  width: 400px;
+  width: 600px;
 }
 
 .section{
@@ -63,13 +64,13 @@
 .section-header{
   font-family: monomakh;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 30px;
   padding-bottom: 5px;
 }
 
 .section li {
   font-family: lato;
-  font-size: 10px;
+  font-size: 18px;
   color: rgb(72, 67, 67);
   padding-bottom: 5px;
 }
@@ -82,14 +83,14 @@
   margin-top: 80px;
   padding-right: 50px;
   background-color: rgb(90, 89, 89);
-  height: 50px;
+  height: 80px;
 }
 
 .home-link{
   text-decoration: none;
   color: white;
   font-family: lato;
-  font-size: 11px;
+  font-size: 18px;
   transition: color 0.2s, text-decoration 0.3s;
 }
 

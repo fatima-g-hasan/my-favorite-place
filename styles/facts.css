@@ -1,9 +1,18 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+
+
 .facts-header{
   font-family: monomakh;
   font-weight: 100;
+  font-size: 50px;
   padding-left: 50px;
   background-color: rgb(90, 89, 89);
   color: white;
+  margin: 30px
 }
 
 .main-div {
@@ -18,16 +27,39 @@
 .div-one, .div-two, .div-three, .div-four {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 100px;
 }
 
 .main-div p{
   font-family: lato;
-  font-size: 12px;
+  font-size: 20px;
   color: rgb(72, 67, 67);
-  width: 300px;
+  width: 400px;
 }
 
 .main-div img{
-  width: 200px;
+  width: 400px;
+}
+
+.facts-footer{
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  margin-top: 80px;
+  padding-left: 50px;
+  background-color: rgb(90, 89, 89);
+  height: 80px;
+}
+
+.facts-link{
+  text-decoration: none;
+  color: white;
+  font-family: lato;
+  font-size: 18px;
+  transition: color 0.2s, text-decoration 0.3s;
+}
+
+.facts-link:hover {
+  text-decoration: underline;    
+  color: #d0d0cf;                
 }
