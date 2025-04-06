@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+.main-header {
+  height: 150px;
+  background-color: rgb(164, 194, 192);
+}
+
+.main-title {
+  color: rgb(43, 43, 43);
+  font-family: 'italianno','Pacifico', cursive;
+  font-weight: 200;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.main-subtitle{
+  color: rgb(43, 43, 43);
+  font-family: 'lato';
+  font-weight: 400;
+  font-size: 15px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  text-align: center;
+  padding-top: 15px;
+}
