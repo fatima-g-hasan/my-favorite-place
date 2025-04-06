@@ -73,3 +73,27 @@
   color: rgb(72, 67, 67);
   padding-bottom: 5px;
 }
+
+
+.home-footer{
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  margin-top: 80px;
+  padding-right: 50px;
+  background-color: rgb(90, 89, 89);
+  height: 50px;
+}
+
+.home-link{
+  text-decoration: none;
+  color: white;
+  font-family: lato;
+  font-size: 11px;
+  transition: color 0.2s, text-decoration 0.3s;
+}
+
+.home-link:hover {
+  text-decoration: underline;    
+  color: #d0d0cf;                
+}
